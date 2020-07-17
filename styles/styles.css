@@ -1,0 +1,206 @@
+body {
+    height: 297mm;
+    width: 210mm;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px #92B1CF;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 17px;
+    color: #13345C;
+}
+
+header {
+    display: inline-block;
+    width: 66.6%;
+    letter-spacing: 2px;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contacts {
+    padding-top: 150px;
+    display: inline-block;
+    float: left;
+    width: 33.3%;
+    background-color: #92B1CF; /* rgba(146, 177, 207, 0.9)*/
+    color: white;
+    /*background: radial-gradient(circle farthest-corner at 140px 5px, white 1%, #92B1CF 100%);*/
+            /*linear-gradient(45deg, #92B1CF, white);*/
+            /*linear-gradient(to left, white, #92B1CF);*/
+}
+
+header h2 {
+    text-aligh: right;
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 5px;
+    margin-left: 37px;
+    font-family: "Lato Light", sans-serif;
+    font-size: 19px;
+}
+
+header p{
+    letter-spacing: normal;
+    margin-left: 35px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.skills h2 {
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 20px;
+    color: #13345C;
+    padding-bottom: 10px;
+    border-bottom: 1.2px solid #13345C;
+    margin-left: 300px;
+    margin-right: 30px;
+    margin-top: 34px;
+}
+
+h3 {
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.circle ul{
+    list-style-type: none;}
+    /*width: 400px;} /* ширина текста в таблице */
+    /*border-left: 1px solid #13345C; /* цвет и толщина вертикальной линии */
+    /*padding-left: 64px; /* сдвигает кружочки и список */
+    /*margin-left: 300px; /* сдвигает всё: кружочки, список и линию */
+    /*padding-top: 5px; /* отступ между таблицами и линия вверх */
+/*}*/
+
+/*.circle li:before{ /*кружочки*/
+    /*content: "";
+    position: absolute;
+    margin-left: -70px; /* сдвигает кружочки*/
+    /*margin-top: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #13345C;
+    padding: 5px;
+}*/
+
+table{
+    padding-left: 35px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.hard td{
+    width: 180px;
+}
+
+.short {
+    padding-left: 55px;
+}
+
+.short1{
+    padding-left: 30px;
+}
+
+.short2{
+    padding-left: 8px;
+}
+
+.short3, .short4{
+    padding-left: 60px;
+}
+
+.date{
+    width: 100px;
+}
+
+.cont {
+    padding-top: 40px;
+}
+
+.contacts h2 {
+    margin-top: 50px;
+    margin-left: 38px;
+    padding-bottom: 10px;
+    border-bottom: 1.2px solid;
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 20px;
+}
+
+dt {
+    margin-left: 28px;
+    padding-left: 38px;
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 17px;
+    color: #13345C;
+}
+
+.contacts li {
+    margin-bottom: 18px;
+    margin-left: 15px;
+
+}
+
+.location {
+    background-image: url(../img/map.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-left: 32px;
+    padding-left: 42px;
+}
+
+.phone {
+    background-image: url(../img/phone.png);
+    background-size: 19px 19px;
+    background-repeat: no-repeat;
+    margin-left: 38px;
+    padding-left: 36px;
+}
+
+.email {
+    background-image: url(../img/email.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    margin-left: 36px;
+}
+
+.skype {
+    background-image: url(../img/skype.png);
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    margin-left: 36px;
+}
+
+.in {
+    background-image: url(../img/in.png);
+    background-size: 21px 21px;
+    background-repeat: no-repeat;
+    margin-left: 36px;
+}
+
+.telegram {
+    background-image: url(../img/telegram.png);
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    margin-left: 36px;
+}
+
+.circle p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
